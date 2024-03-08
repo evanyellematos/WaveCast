@@ -1,0 +1,239 @@
+:root{
+    --cor-principal: linear-gradient(52.7deg, #072041 -8.87%, #041833 50%, #154580 108.87%);
+    --cor-secundaria: #fff;
+    --cor-terciaria:#C4C4C433;
+
+    
+}
+
+
+@import url('https://fonts.googleapis.com/css2? família= Open+Sans:wght@400;700 & display=swap');
+
+*
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    color: var(--cor-secundaria);
+}
+
+.cabecalho{
+    font-family: 'Open Sans', sans-serif;
+    background: var(--cor-principal);
+    
+}
+
+.logo-indice{
+    margin: 0.2rem;
+    padding: 1rem;
+}
+.seta{
+    width: 4.5rem;
+    height: 1.5rem;
+    gap: 1.5rem;
+    padding-top: 1.25rem;   
+}
+
+.conteiner-indice{
+    display: grid;
+    row-gap: 2rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    grid-template-columns: 1fr, auto; 
+}
+.logowave{
+    margin: 0.2rem;
+    padding: 1rem;
+}
+
+.icones{
+ gap: 1rem;
+ font-family: 'Open Sans', sans-serif;
+ color: #2BDEFD;
+ list-style: none;
+
+}
+.icones2{
+ gap: 1rem;
+ font-family: 'Open Sans', sans-serif;
+ list-style: none;
+   
+}
+
+.conteudo{
+font-family: 'Open Sans', sans-serif;
+background:var(--cor-principal);
+/* gap: 1rem; */
+
+}
+  .secao-vertical{
+display: grid;
+font-family: 'Open Sans', sans-serif;
+font-size: 1.25rem;
+font-weight: 700;
+line-height: 2.4rem;
+text-align: left;
+align-items: end;
+margin: 1rem;
+/* grid-template-rows: repeat(3,auto) 1fr; */
+
+
+
+  }
+ .card{
+display: grid;
+font-family: 'Open Sans', sans-serif;
+font-size: 1.25rem;
+font-weight: 700;
+line-height: 2.4rem;
+text-align: left;
+align-items: end;
+margin: 1rem;
+ /* width: 320px;
+height: 38px;   */
+}
+
+.imagem-logo{
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 0.5rem;
+    grid-area: 1/ 1/ 4/ 2;
+    
+}
+  
+.imagem-player{
+
+width: 3rem;
+height: 3rem;
+top: 1rem;
+left: 14rem;
+margin-left: 12rem;
+padding-top: 0.8rem;
+grid-area: 1/ 3/ 3/ 2; 
+
+} 
+
+    /* SEGUNDO CARD */
+
+    .imagem-card{
+width: 8rem;
+height: 8rem;
+border-radius: 0.4rem;
+padding: 0.9rem;
+ }
+
+    .paragrafo{
+    
+         width: 9rem;
+        height: 1.20rem;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.20rem;
+        letter-spacing: 0em;
+        text-align: left;
+         padding-left: 1rem;
+        }
+    
+     .ver-mais{
+            display: grid;
+            grid-template-columns: 1fr auto;
+            text-decoration: none;
+            font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.4rem;
+        color: var( --cor-secundaria);
+        letter-spacing: 0em;
+        text-align: right;
+        
+            }
+
+.conclusao{
+    width: 1,172px;
+    height:96px;
+    top: 1372px;
+    left: 234px;
+    padding: 16px;
+    border-radius: 4px;
+    gap: 15px;
+            
+            
+            }
+         
+    
+ .player{
+    width: 640px;
+    height: 4px;
+    top: 6px;
+    left: 39px;
+    border-radius: 10px;
+    opacity: 0.35px;
+    background: var(--cor-secundaria);  
+     
+}
+.conclusao{
+    display: flex;
+    width: Fixed (1,172px);
+height: Hug (96px);
+top: 1372px;
+left: 234px;
+padding: 16px;
+border-radius: 4px;
+gap: 15px;
+}
+
+.imagem-conclusao{
+   width: 32px;
+   height: 32px;
+
+}
+.conteiner-texto{
+    white-space: nowrap;
+   margin-top: -20px;
+  
+}
+
+.texto-logo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700; 
+}
+
+.texto__{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -15px;
+    
+}
+
+.conteiner-player{
+    display: flex;
+    align-items: center;
+   margin-left: 300px;
+   width: Hug (176px);
+   height: Hug (32px);
+    gap: 16px;
+}
+.volume{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 8px;
+    margin-bottom: 20px; 
+    padding-left: 30px;
+    
+    
+}
+
+.conteiner-volume{
+width: 112px;
+height: 4px;
+top: 7px;
+left: 26px;
+border-radius: 10px;
+opacity: 0.35px;
+} 
