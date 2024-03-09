@@ -1,4 +1,4 @@
-@media only screen and (min-width: 360px) and (max-width: 1023px){
+@media only screen and   (max-width: 759px) {
  
 .cabecalho{
             display: none;}
@@ -6,7 +6,8 @@
     .menu-lateral{
         display: none;
         }   
-    
+          
+          
  .logowavE{
     align-self: center;
 }
@@ -34,24 +35,29 @@ text-align: left;
 .secao-horizontal .imagem-player{
     display: none;
 }
+.conteudo .conclusao{
+    display: none;
+}
 
-    
 
 
   /* TABLET */
         
     
-    @media only screen and (min-width: 1024px) and (max-width: 1399px) {   
+    @media only screen and (min-width: 760px) and (max-width: 1399px) {   
         
         .cabecalho{
             display: inline-block;}
- 
+            .logo{
+                display: none;
+             }
    
  .menu-lateral{
     display: inline-block;
             width: 208px;
         }
-          
+        
+           
         .logo-indice{
             display: none;
         }
@@ -66,17 +72,118 @@ text-align: left;
         margin: 0;
         word-wrap: break-word;
         width: 188px;
-     height: 44px;
-     grid-area: 2/ 2/ 2/ 3;}
+        height: 44px;
+        grid-area: 2/ 2/ 2/ 3;}
+        
         .secao-horizontal .cartao__player{
             display: inline
         }
         .secao-horizontal .imagem-player{
             display: inline;
         }
-        
-
+        .conteudo .conclusao{
+            display: inline
         }
+        .conteudo .conclusao{
+                display: flex;
+                flex-direction: column wrap;
+                margin-top: -20px;
+                text-decoration: none;
+                
+                }
+                
+                .imagem-conclusao{
+                    width: 56px;
+                    height: 56px;
+                }
+                
+                .frases{
+                    margin-top: -20px;
+                   color: var(--cor-secundaria);
+                     
+                }
+                .conteiner-texto{
+                    white-space: nowrap;
+                   margin-top: -20px;
+                  
+                }
+                
+                .texto-logo{
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 16px;
+                    font-weight: 700; 
+                }
+                
+                .texto__{
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin-top: -15px;
+                    
+                }
+                
+                .conteiner-player{
+                 display: flex;
+                justify-content: center;
+                margin-right: 10rem;
+                gap: 0.5rem;
+                
+                }
+                
+                
+                .conteiner-final{
+                
+                font-family: 'Open Sans', sans-serif;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 16px;
+                letter-spacing: 0em;
+                text-align: left;
+                
+                 
+                }
+                .imagem-icones{
+                    width: 24px;
+                    height: 24px;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0em;
+                text-align: center;
+                
+                
+                }
+                
+                .imagem-midia{
+                    width: 32px;
+                height: 32px;
+                
+                
+                
+                }
+                .volume{
+                    display: flex;
+                    align-items: center;
+                    justify-content: end;
+                    align-content: flex-end;
+                    gap: 8px;
+                    margin-bottom: 5px; 
+                    padding-left: 350px;
+                    
+                    
+                }
+                
+                .conteiner-volume{
+                width: 112px;
+                height: 4px;
+                top: 7px;
+                left: 26px;
+                border-radius: 10px;
+                opacity: 0.35px;
+                } 
+        }
+
+
     /* DESKTOP */
     @media only screen and (min-width: 1400px) and (max-width: 1700px) {
 
