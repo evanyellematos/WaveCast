@@ -1,4 +1,4 @@
-@media only screen and (min-width: 360px) {
+@media only screen and (min-width: 360px) and (max-width: 1023px) {
 
 .cabecalho{
             display: none;}
@@ -44,7 +44,7 @@ text-align: left;
   /* TABLET */
         
     
-    @media only screen and (min-width: 760px) and (max-width: 1399px) {   
+    @media only screen and (min-width: 1024px) and (max-width: 1399px) {   
         
         .cabecalho{
             display: inline-block;}
